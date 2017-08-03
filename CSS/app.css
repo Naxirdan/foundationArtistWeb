@@ -1,3 +1,6 @@
+body{
+	overflow-y: hidden;
+}
 .trans{
 	position:absolute;
 	top: 0;
@@ -49,5 +52,10 @@
 	border-radius:0.3rem;
 }
 #social-container i{
+	cursor: pointer;
 	font-size: 2rem;
+	color: skyblue;
+}
+#social-container i:hover{
+	color: #0080FF;
 }
